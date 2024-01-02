@@ -6040,458 +6040,442 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_Update_m5BB6CE35AF68EE00C
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral03FBCAA2A702A9CCC2012712D07D073D752E59DA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E);
 		s_Il2CppMethodInitialized = true;
 	}
-	PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* G_B48_0 = NULL;
-	PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* G_B47_0 = NULL;
-	int32_t G_B49_0 = 0;
-	PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* G_B49_1 = NULL;
+	PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* G_B46_0 = NULL;
+	PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* G_B45_0 = NULL;
+	int32_t G_B47_0 = 0;
+	PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* G_B47_1 = NULL;
 	{
-		bool L_0;
-		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)27), NULL);
-		if (!L_0)
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral03FBCAA2A702A9CCC2012712D07D073D752E59DA, NULL);
-	}
-
-IL_0013:
-	{
+		float L_0;
+		L_0 = PlayerMovement_get_LastOnGroundTime_m1462AA9FA3320199556C075CD0376FFD474451E8_inline(__this, NULL);
 		float L_1;
-		L_1 = PlayerMovement_get_LastOnGroundTime_m1462AA9FA3320199556C075CD0376FFD474451E8_inline(__this, NULL);
+		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		PlayerMovement_set_LastOnGroundTime_mBC8C8EC234B2408515AAAB57E44256ACD4445558_inline(__this, ((float)il2cpp_codegen_subtract(L_0, L_1)), NULL);
 		float L_2;
-		L_2 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		PlayerMovement_set_LastOnGroundTime_mBC8C8EC234B2408515AAAB57E44256ACD4445558_inline(__this, ((float)il2cpp_codegen_subtract(L_1, L_2)), NULL);
+		L_2 = PlayerMovement_get_LastOnWallTime_m89106735E199137A818054A06436705CB24A4A6F_inline(__this, NULL);
 		float L_3;
-		L_3 = PlayerMovement_get_LastOnWallTime_m89106735E199137A818054A06436705CB24A4A6F_inline(__this, NULL);
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		PlayerMovement_set_LastOnWallTime_mD4FD4707E6994439B0F7AF66BFD9064C05F64635_inline(__this, ((float)il2cpp_codegen_subtract(L_2, L_3)), NULL);
 		float L_4;
-		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		PlayerMovement_set_LastOnWallTime_mD4FD4707E6994439B0F7AF66BFD9064C05F64635_inline(__this, ((float)il2cpp_codegen_subtract(L_3, L_4)), NULL);
+		L_4 = PlayerMovement_get_LastOnWallRightTime_m542726BD82AF181D571F8C3CE4D3305AF6E10434_inline(__this, NULL);
 		float L_5;
-		L_5 = PlayerMovement_get_LastOnWallRightTime_m542726BD82AF181D571F8C3CE4D3305AF6E10434_inline(__this, NULL);
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		PlayerMovement_set_LastOnWallRightTime_m66A7320A0B50984ACC8735C0F3A2F420A0D3DE0E_inline(__this, ((float)il2cpp_codegen_subtract(L_4, L_5)), NULL);
 		float L_6;
-		L_6 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		PlayerMovement_set_LastOnWallRightTime_m66A7320A0B50984ACC8735C0F3A2F420A0D3DE0E_inline(__this, ((float)il2cpp_codegen_subtract(L_5, L_6)), NULL);
+		L_6 = PlayerMovement_get_LastOnWallLeftTime_m937E5FD4D3AA0213DD6785333E35C31B90FAB407_inline(__this, NULL);
 		float L_7;
-		L_7 = PlayerMovement_get_LastOnWallLeftTime_m937E5FD4D3AA0213DD6785333E35C31B90FAB407_inline(__this, NULL);
+		L_7 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		PlayerMovement_set_LastOnWallLeftTime_mFD09DC5FECABA756627893E80EFF0DE682AE9903_inline(__this, ((float)il2cpp_codegen_subtract(L_6, L_7)), NULL);
 		float L_8;
-		L_8 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		PlayerMovement_set_LastOnWallLeftTime_mFD09DC5FECABA756627893E80EFF0DE682AE9903_inline(__this, ((float)il2cpp_codegen_subtract(L_7, L_8)), NULL);
+		L_8 = PlayerMovement_get_LastPressedJumpTime_m831DFDC4F832AD9ED9AAB12609043C3FBA5CC2D9_inline(__this, NULL);
 		float L_9;
-		L_9 = PlayerMovement_get_LastPressedJumpTime_m831DFDC4F832AD9ED9AAB12609043C3FBA5CC2D9_inline(__this, NULL);
-		float L_10;
-		L_10 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		PlayerMovement_set_LastPressedJumpTime_mF3ABD7E1498C1C7CCE6AEE19EDAB514C38404BE8_inline(__this, ((float)il2cpp_codegen_subtract(L_9, L_10)), NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_11 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
-		float L_12;
-		L_12 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
-		L_11->___x = L_12;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_13 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
-		float L_14;
-		L_14 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
-		L_13->___y = L_14;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_15 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
-		float L_16 = L_15->___x;
-		if ((((float)L_16) == ((float)(0.0f))))
+		L_9 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		PlayerMovement_set_LastPressedJumpTime_mF3ABD7E1498C1C7CCE6AEE19EDAB514C38404BE8_inline(__this, ((float)il2cpp_codegen_subtract(L_8, L_9)), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_10 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
+		float L_11;
+		L_11 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
+		L_10->___x = L_11;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_12 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
+		float L_13;
+		L_13 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
+		L_12->___y = L_13;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_14 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
+		float L_15 = L_14->___x;
+		if ((((float)L_15) == ((float)(0.0f))))
 		{
-			goto IL_00c1;
+			goto IL_00ae;
 		}
 	}
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_17 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
-		float L_18 = L_17->___x;
-		PlayerMovement_CheckDirectionToFace_m9EC6ED82BDA437A94832C3B9E16C62BB65F83E4B(__this, (bool)((((float)L_18) > ((float)(0.0f)))? 1 : 0), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_16 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
+		float L_17 = L_16->___x;
+		PlayerMovement_CheckDirectionToFace_m9EC6ED82BDA437A94832C3B9E16C62BB65F83E4B(__this, (bool)((((float)L_17) > ((float)(0.0f)))? 1 : 0), NULL);
 	}
 
-IL_00c1:
+IL_00ae:
+	{
+		bool L_18;
+		L_18 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)32), NULL);
+		if (L_18)
+		{
+			goto IL_00c9;
+		}
+	}
 	{
 		bool L_19;
-		L_19 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)32), NULL);
+		L_19 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)99), NULL);
 		if (L_19)
 		{
-			goto IL_00dc;
+			goto IL_00c9;
 		}
 	}
 	{
 		bool L_20;
-		L_20 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)99), NULL);
-		if (L_20)
+		L_20 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)106), NULL);
+		if (!L_20)
 		{
-			goto IL_00dc;
-		}
-	}
-	{
-		bool L_21;
-		L_21 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)106), NULL);
-		if (!L_21)
-		{
-			goto IL_00e2;
+			goto IL_00cf;
 		}
 	}
 
-IL_00dc:
+IL_00c9:
 	{
 		PlayerMovement_OnJumpInput_m6C4427EA045518A267809796EE4B600CE55FC5C6(__this, NULL);
 	}
 
-IL_00e2:
+IL_00cf:
+	{
+		bool L_21;
+		L_21 = Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F(((int32_t)32), NULL);
+		if (L_21)
+		{
+			goto IL_00ea;
+		}
+	}
 	{
 		bool L_22;
-		L_22 = Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F(((int32_t)32), NULL);
+		L_22 = Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F(((int32_t)99), NULL);
 		if (L_22)
 		{
-			goto IL_00fd;
+			goto IL_00ea;
 		}
 	}
 	{
 		bool L_23;
-		L_23 = Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F(((int32_t)99), NULL);
-		if (L_23)
+		L_23 = Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F(((int32_t)106), NULL);
+		if (!L_23)
 		{
-			goto IL_00fd;
-		}
-	}
-	{
-		bool L_24;
-		L_24 = Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F(((int32_t)106), NULL);
-		if (!L_24)
-		{
-			goto IL_0103;
+			goto IL_00f0;
 		}
 	}
 
-IL_00fd:
+IL_00ea:
 	{
 		PlayerMovement_OnJumpUpInput_m3A488392550BC01885AD60A489106AD1A2765564(__this, NULL);
 	}
 
-IL_0103:
+IL_00f0:
 	{
-		bool L_25;
-		L_25 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
-		if (L_25)
+		bool L_24;
+		L_24 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
+		if (L_24)
 		{
-			goto IL_028a;
+			goto IL_0277;
 		}
 	}
 	{
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26 = __this->____groundCheckPoint;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
-		L_27 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_26, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28;
-		L_28 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_27, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29 = __this->____groundCheckSize;
-		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_30 = __this->____groundLayer;
-		int32_t L_31;
-		L_31 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_30, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = __this->____groundCheckPoint;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_25, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27;
+		L_27 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_26, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = __this->____groundCheckSize;
+		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_29 = __this->____groundLayer;
+		int32_t L_30;
+		L_30 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_29, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var);
-		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_32;
-		L_32 = Physics2D_OverlapBox_mF4F43BA71C46C138C460ACFA8EB479DE73A5E4A7(L_28, L_29, (0.0f), L_31, NULL);
+		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_31;
+		L_31 = Physics2D_OverlapBox_mF4F43BA71C46C138C460ACFA8EB479DE73A5E4A7(L_27, L_28, (0.0f), L_30, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_32;
+		L_32 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_31, NULL);
+		if (!L_32)
+		{
+			goto IL_0146;
+		}
+	}
+	{
 		bool L_33;
-		L_33 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_32, NULL);
-		if (!L_33)
+		L_33 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
+		if (L_33)
 		{
-			goto IL_0159;
+			goto IL_0146;
 		}
 	}
 	{
-		bool L_34;
-		L_34 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
-		if (L_34)
-		{
-			goto IL_0159;
-		}
-	}
-	{
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_35 = __this->___Data;
-		float L_36 = L_35->___coyoteTime;
-		PlayerMovement_set_LastOnGroundTime_mBC8C8EC234B2408515AAAB57E44256ACD4445558_inline(__this, L_36, NULL);
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_34 = __this->___Data;
+		float L_35 = L_34->___coyoteTime;
+		PlayerMovement_set_LastOnGroundTime_mBC8C8EC234B2408515AAAB57E44256ACD4445558_inline(__this, L_35, NULL);
 	}
 
-IL_0159:
+IL_0146:
 	{
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37 = __this->____frontWallCheckPoint;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
-		L_38 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_37, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39;
-		L_39 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_38, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40 = __this->____wallCheckSize;
-		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_41 = __this->____groundLayer;
-		int32_t L_42;
-		L_42 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_41, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36 = __this->____frontWallCheckPoint;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_36, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38;
+		L_38 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_37, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39 = __this->____wallCheckSize;
+		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_40 = __this->____groundLayer;
+		int32_t L_41;
+		L_41 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_40, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var);
-		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_43;
-		L_43 = Physics2D_OverlapBox_mF4F43BA71C46C138C460ACFA8EB479DE73A5E4A7(L_39, L_40, (0.0f), L_42, NULL);
+		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_42;
+		L_42 = Physics2D_OverlapBox_mF4F43BA71C46C138C460ACFA8EB479DE73A5E4A7(L_38, L_39, (0.0f), L_41, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_43;
+		L_43 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_42, NULL);
+		if (!L_43)
+		{
+			goto IL_0180;
+		}
+	}
+	{
 		bool L_44;
-		L_44 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_43, NULL);
-		if (!L_44)
+		L_44 = PlayerMovement_get_IsFacingRight_mE57D7C6448ED4CA3A46C3B72A1860B0FAECEA1D8_inline(__this, NULL);
+		if (L_44)
 		{
-			goto IL_0193;
-		}
-	}
-	{
-		bool L_45;
-		L_45 = PlayerMovement_get_IsFacingRight_mE57D7C6448ED4CA3A46C3B72A1860B0FAECEA1D8_inline(__this, NULL);
-		if (L_45)
-		{
-			goto IL_01cd;
+			goto IL_01ba;
 		}
 	}
 
-IL_0193:
+IL_0180:
 	{
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = __this->____backWallCheckPoint;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
-		L_47 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_46, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_48;
-		L_48 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_47, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_49 = __this->____wallCheckSize;
-		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_50 = __this->____groundLayer;
-		int32_t L_51;
-		L_51 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_50, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45 = __this->____backWallCheckPoint;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46;
+		L_46 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_45, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_47;
+		L_47 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_46, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_48 = __this->____wallCheckSize;
+		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_49 = __this->____groundLayer;
+		int32_t L_50;
+		L_50 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_49, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var);
-		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_52;
-		L_52 = Physics2D_OverlapBox_mF4F43BA71C46C138C460ACFA8EB479DE73A5E4A7(L_48, L_49, (0.0f), L_51, NULL);
+		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_51;
+		L_51 = Physics2D_OverlapBox_mF4F43BA71C46C138C460ACFA8EB479DE73A5E4A7(L_47, L_48, (0.0f), L_50, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_53;
-		L_53 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_52, NULL);
-		if (!L_53)
+		bool L_52;
+		L_52 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_51, NULL);
+		if (!L_52)
 		{
-			goto IL_01e6;
+			goto IL_01d3;
 		}
 	}
+	{
+		bool L_53;
+		L_53 = PlayerMovement_get_IsFacingRight_mE57D7C6448ED4CA3A46C3B72A1860B0FAECEA1D8_inline(__this, NULL);
+		if (L_53)
+		{
+			goto IL_01d3;
+		}
+	}
+
+IL_01ba:
 	{
 		bool L_54;
-		L_54 = PlayerMovement_get_IsFacingRight_mE57D7C6448ED4CA3A46C3B72A1860B0FAECEA1D8_inline(__this, NULL);
+		L_54 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
 		if (L_54)
 		{
-			goto IL_01e6;
-		}
-	}
-
-IL_01cd:
-	{
-		bool L_55;
-		L_55 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
-		if (L_55)
-		{
-			goto IL_01e6;
+			goto IL_01d3;
 		}
 	}
 	{
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_56 = __this->___Data;
-		float L_57 = L_56->___coyoteTime;
-		PlayerMovement_set_LastOnWallRightTime_m66A7320A0B50984ACC8735C0F3A2F420A0D3DE0E_inline(__this, L_57, NULL);
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_55 = __this->___Data;
+		float L_56 = L_55->___coyoteTime;
+		PlayerMovement_set_LastOnWallRightTime_m66A7320A0B50984ACC8735C0F3A2F420A0D3DE0E_inline(__this, L_56, NULL);
 	}
 
-IL_01e6:
+IL_01d3:
 	{
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_58 = __this->____frontWallCheckPoint;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
-		L_59 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_58, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_60;
-		L_60 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_59, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_61 = __this->____wallCheckSize;
-		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_62 = __this->____groundLayer;
-		int32_t L_63;
-		L_63 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_62, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_57 = __this->____frontWallCheckPoint;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58;
+		L_58 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_57, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_59;
+		L_59 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_58, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_60 = __this->____wallCheckSize;
+		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_61 = __this->____groundLayer;
+		int32_t L_62;
+		L_62 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_61, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var);
-		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_64;
-		L_64 = Physics2D_OverlapBox_mF4F43BA71C46C138C460ACFA8EB479DE73A5E4A7(L_60, L_61, (0.0f), L_63, NULL);
+		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_63;
+		L_63 = Physics2D_OverlapBox_mF4F43BA71C46C138C460ACFA8EB479DE73A5E4A7(L_59, L_60, (0.0f), L_62, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_64;
+		L_64 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_63, NULL);
+		if (!L_64)
+		{
+			goto IL_020d;
+		}
+	}
+	{
 		bool L_65;
-		L_65 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_64, NULL);
+		L_65 = PlayerMovement_get_IsFacingRight_mE57D7C6448ED4CA3A46C3B72A1860B0FAECEA1D8_inline(__this, NULL);
 		if (!L_65)
 		{
-			goto IL_0220;
-		}
-	}
-	{
-		bool L_66;
-		L_66 = PlayerMovement_get_IsFacingRight_mE57D7C6448ED4CA3A46C3B72A1860B0FAECEA1D8_inline(__this, NULL);
-		if (!L_66)
-		{
-			goto IL_025a;
+			goto IL_0247;
 		}
 	}
 
-IL_0220:
+IL_020d:
 	{
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_67 = __this->____backWallCheckPoint;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_68;
-		L_68 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_67, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_69;
-		L_69 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_68, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_70 = __this->____wallCheckSize;
-		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_71 = __this->____groundLayer;
-		int32_t L_72;
-		L_72 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_71, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_66 = __this->____backWallCheckPoint;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_67;
+		L_67 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_66, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_68;
+		L_68 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_67, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_69 = __this->____wallCheckSize;
+		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_70 = __this->____groundLayer;
+		int32_t L_71;
+		L_71 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_70, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var);
-		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_73;
-		L_73 = Physics2D_OverlapBox_mF4F43BA71C46C138C460ACFA8EB479DE73A5E4A7(L_69, L_70, (0.0f), L_72, NULL);
+		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_72;
+		L_72 = Physics2D_OverlapBox_mF4F43BA71C46C138C460ACFA8EB479DE73A5E4A7(L_68, L_69, (0.0f), L_71, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_73;
+		L_73 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_72, NULL);
+		if (!L_73)
+		{
+			goto IL_0260;
+		}
+	}
+	{
 		bool L_74;
-		L_74 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_73, NULL);
+		L_74 = PlayerMovement_get_IsFacingRight_mE57D7C6448ED4CA3A46C3B72A1860B0FAECEA1D8_inline(__this, NULL);
 		if (!L_74)
 		{
-			goto IL_0273;
+			goto IL_0260;
 		}
 	}
+
+IL_0247:
 	{
 		bool L_75;
-		L_75 = PlayerMovement_get_IsFacingRight_mE57D7C6448ED4CA3A46C3B72A1860B0FAECEA1D8_inline(__this, NULL);
-		if (!L_75)
+		L_75 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
+		if (L_75)
 		{
-			goto IL_0273;
-		}
-	}
-
-IL_025a:
-	{
-		bool L_76;
-		L_76 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
-		if (L_76)
-		{
-			goto IL_0273;
+			goto IL_0260;
 		}
 	}
 	{
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_77 = __this->___Data;
-		float L_78 = L_77->___coyoteTime;
-		PlayerMovement_set_LastOnWallLeftTime_mFD09DC5FECABA756627893E80EFF0DE682AE9903_inline(__this, L_78, NULL);
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_76 = __this->___Data;
+		float L_77 = L_76->___coyoteTime;
+		PlayerMovement_set_LastOnWallLeftTime_mFD09DC5FECABA756627893E80EFF0DE682AE9903_inline(__this, L_77, NULL);
 	}
 
-IL_0273:
+IL_0260:
 	{
+		float L_78;
+		L_78 = PlayerMovement_get_LastOnWallLeftTime_m937E5FD4D3AA0213DD6785333E35C31B90FAB407_inline(__this, NULL);
 		float L_79;
-		L_79 = PlayerMovement_get_LastOnWallLeftTime_m937E5FD4D3AA0213DD6785333E35C31B90FAB407_inline(__this, NULL);
+		L_79 = PlayerMovement_get_LastOnWallRightTime_m542726BD82AF181D571F8C3CE4D3305AF6E10434_inline(__this, NULL);
 		float L_80;
-		L_80 = PlayerMovement_get_LastOnWallRightTime_m542726BD82AF181D571F8C3CE4D3305AF6E10434_inline(__this, NULL);
-		float L_81;
-		L_81 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_79, L_80, NULL);
-		PlayerMovement_set_LastOnWallTime_mD4FD4707E6994439B0F7AF66BFD9064C05F64635_inline(__this, L_81, NULL);
+		L_80 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_78, L_79, NULL);
+		PlayerMovement_set_LastOnWallTime_mD4FD4707E6994439B0F7AF66BFD9064C05F64635_inline(__this, L_80, NULL);
 	}
 
-IL_028a:
+IL_0277:
 	{
-		bool L_82;
-		L_82 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
-		if (!L_82)
+		bool L_81;
+		L_81 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
+		if (!L_81)
 		{
-			goto IL_02bf;
+			goto IL_02ac;
 		}
 	}
 	{
-		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_83;
-		L_83 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_84;
-		L_84 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_83, NULL);
-		float L_85 = L_84.___y;
-		if ((!(((float)L_85) < ((float)(0.0f)))))
+		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_82;
+		L_82 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_83;
+		L_83 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_82, NULL);
+		float L_84 = L_83.___y;
+		if ((!(((float)L_84) < ((float)(0.0f)))))
 		{
-			goto IL_02bf;
+			goto IL_02ac;
 		}
 	}
 	{
 		PlayerMovement_set_IsJumping_m4D9A4D72DA81280A614027804889CE60032B165C_inline(__this, (bool)0, NULL);
-		bool L_86;
-		L_86 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
-		if (L_86)
+		bool L_85;
+		L_85 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
+		if (L_85)
 		{
-			goto IL_02bf;
+			goto IL_02ac;
 		}
 	}
 	{
 		__this->____isJumpFalling = (bool)1;
 	}
 
-IL_02bf:
+IL_02ac:
 	{
-		bool L_87;
-		L_87 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
-		if (!L_87)
+		bool L_86;
+		L_86 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
+		if (!L_86)
 		{
-			goto IL_02e7;
+			goto IL_02d4;
 		}
 	}
 	{
-		float L_88;
-		L_88 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		float L_89 = __this->____wallJumpStartTime;
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_90 = __this->___Data;
-		float L_91 = L_90->___wallJumpTime;
-		if ((!(((float)((float)il2cpp_codegen_subtract(L_88, L_89))) > ((float)L_91))))
+		float L_87;
+		L_87 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_88 = __this->____wallJumpStartTime;
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_89 = __this->___Data;
+		float L_90 = L_89->___wallJumpTime;
+		if ((!(((float)((float)il2cpp_codegen_subtract(L_87, L_88))) > ((float)L_90))))
 		{
-			goto IL_02e7;
+			goto IL_02d4;
 		}
 	}
 	{
 		PlayerMovement_set_IsWallJumping_mC420748B9512191982748B2E9CC69D23BDB2AFAA_inline(__this, (bool)0, NULL);
 	}
 
-IL_02e7:
+IL_02d4:
 	{
-		float L_92;
-		L_92 = PlayerMovement_get_LastOnGroundTime_m1462AA9FA3320199556C075CD0376FFD474451E8_inline(__this, NULL);
-		if ((!(((float)L_92) > ((float)(0.0f)))))
+		float L_91;
+		L_91 = PlayerMovement_get_LastOnGroundTime_m1462AA9FA3320199556C075CD0376FFD474451E8_inline(__this, NULL);
+		if ((!(((float)L_91) > ((float)(0.0f)))))
 		{
-			goto IL_031a;
+			goto IL_0307;
+		}
+	}
+	{
+		bool L_92;
+		L_92 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
+		if (L_92)
+		{
+			goto IL_0307;
 		}
 	}
 	{
 		bool L_93;
-		L_93 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
+		L_93 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
 		if (L_93)
 		{
-			goto IL_031a;
-		}
-	}
-	{
-		bool L_94;
-		L_94 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
-		if (L_94)
-		{
-			goto IL_031a;
+			goto IL_0307;
 		}
 	}
 	{
 		__this->____isJumpCut = (bool)0;
-		bool L_95;
-		L_95 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
-		if (L_95)
+		bool L_94;
+		L_94 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
+		if (L_94)
 		{
-			goto IL_031a;
+			goto IL_0307;
 		}
 	}
 	{
 		__this->____isJumpFalling = (bool)0;
 	}
 
-IL_031a:
+IL_0307:
 	{
-		bool L_96;
-		L_96 = PlayerMovement_CanJump_mEFCDEE7748F27C70943CE940767343F1B9A61324(__this, NULL);
-		if (!L_96)
+		bool L_95;
+		L_95 = PlayerMovement_CanJump_mEFCDEE7748F27C70943CE940767343F1B9A61324(__this, NULL);
+		if (!L_95)
 		{
-			goto IL_0353;
+			goto IL_0340;
 		}
 	}
 	{
-		float L_97;
-		L_97 = PlayerMovement_get_LastPressedJumpTime_m831DFDC4F832AD9ED9AAB12609043C3FBA5CC2D9_inline(__this, NULL);
-		if ((!(((float)L_97) > ((float)(0.0f)))))
+		float L_96;
+		L_96 = PlayerMovement_get_LastPressedJumpTime_m831DFDC4F832AD9ED9AAB12609043C3FBA5CC2D9_inline(__this, NULL);
+		if ((!(((float)L_96) > ((float)(0.0f)))))
 		{
-			goto IL_0353;
+			goto IL_0340;
 		}
 	}
 	{
@@ -6500,24 +6484,24 @@ IL_031a:
 		__this->____isJumpCut = (bool)0;
 		__this->____isJumpFalling = (bool)0;
 		PlayerMovement_Jump_mCA26EA1D2892C47F04966998153F3FD4FFBCEB43(__this, NULL);
-		goto IL_03b2;
+		goto IL_039f;
 	}
 
-IL_0353:
+IL_0340:
 	{
-		bool L_98;
-		L_98 = PlayerMovement_CanWallJump_m1DF5F6D9396FBE8F37CF8A1D631A11FBAC821612(__this, NULL);
-		if (!L_98)
+		bool L_97;
+		L_97 = PlayerMovement_CanWallJump_m1DF5F6D9396FBE8F37CF8A1D631A11FBAC821612(__this, NULL);
+		if (!L_97)
 		{
-			goto IL_03b2;
+			goto IL_039f;
 		}
 	}
 	{
-		float L_99;
-		L_99 = PlayerMovement_get_LastPressedJumpTime_m831DFDC4F832AD9ED9AAB12609043C3FBA5CC2D9_inline(__this, NULL);
-		if ((!(((float)L_99) > ((float)(0.0f)))))
+		float L_98;
+		L_98 = PlayerMovement_get_LastPressedJumpTime_m831DFDC4F832AD9ED9AAB12609043C3FBA5CC2D9_inline(__this, NULL);
+		if ((!(((float)L_98) > ((float)(0.0f)))))
 		{
-			goto IL_03b2;
+			goto IL_039f;
 		}
 	}
 	{
@@ -6525,99 +6509,99 @@ IL_0353:
 		PlayerMovement_set_IsJumping_m4D9A4D72DA81280A614027804889CE60032B165C_inline(__this, (bool)0, NULL);
 		__this->____isJumpCut = (bool)0;
 		__this->____isJumpFalling = (bool)0;
+		float L_99;
+		L_99 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->____wallJumpStartTime = L_99;
 		float L_100;
-		L_100 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		__this->____wallJumpStartTime = L_100;
-		float L_101;
-		L_101 = PlayerMovement_get_LastOnWallRightTime_m542726BD82AF181D571F8C3CE4D3305AF6E10434_inline(__this, NULL);
-		if ((((float)L_101) > ((float)(0.0f))))
+		L_100 = PlayerMovement_get_LastOnWallRightTime_m542726BD82AF181D571F8C3CE4D3305AF6E10434_inline(__this, NULL);
+		if ((((float)L_100) > ((float)(0.0f))))
 		{
-			G_B48_0 = __this;
-			goto IL_03a0;
+			G_B46_0 = __this;
+			goto IL_038d;
 		}
-		G_B47_0 = __this;
+		G_B45_0 = __this;
 	}
 	{
-		G_B49_0 = 1;
-		G_B49_1 = G_B47_0;
-		goto IL_03a1;
-	}
-
-IL_03a0:
-	{
-		G_B49_0 = (-1);
-		G_B49_1 = G_B48_0;
+		G_B47_0 = 1;
+		G_B47_1 = G_B45_0;
+		goto IL_038e;
 	}
 
-IL_03a1:
+IL_038d:
 	{
-		G_B49_1->____lastWallJumpDir = G_B49_0;
-		int32_t L_102 = __this->____lastWallJumpDir;
-		PlayerMovement_WallJump_m935C3A37DDE9E7B188422A0327A90218AF3A6982(__this, L_102, NULL);
+		G_B47_0 = (-1);
+		G_B47_1 = G_B46_0;
 	}
 
-IL_03b2:
+IL_038e:
 	{
-		bool L_103;
-		L_103 = PlayerMovement_CanSlide_mA37D4859B300925937050FC22B96083630F9EB6A(__this, NULL);
-		if (!L_103)
+		G_B47_1->____lastWallJumpDir = G_B47_0;
+		int32_t L_101 = __this->____lastWallJumpDir;
+		PlayerMovement_WallJump_m935C3A37DDE9E7B188422A0327A90218AF3A6982(__this, L_101, NULL);
+	}
+
+IL_039f:
+	{
+		bool L_102;
+		L_102 = PlayerMovement_CanSlide_mA37D4859B300925937050FC22B96083630F9EB6A(__this, NULL);
+		if (!L_102)
 		{
-			goto IL_0401;
+			goto IL_03ee;
 		}
 	}
 	{
-		float L_104;
-		L_104 = PlayerMovement_get_LastOnWallLeftTime_m937E5FD4D3AA0213DD6785333E35C31B90FAB407_inline(__this, NULL);
-		if ((!(((float)L_104) > ((float)(0.0f)))))
+		float L_103;
+		L_103 = PlayerMovement_get_LastOnWallLeftTime_m937E5FD4D3AA0213DD6785333E35C31B90FAB407_inline(__this, NULL);
+		if ((!(((float)L_103) > ((float)(0.0f)))))
 		{
-			goto IL_03d9;
+			goto IL_03c6;
 		}
 	}
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_105 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
-		float L_106 = L_105->___x;
-		if ((((float)L_106) < ((float)(0.0f))))
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_104 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
+		float L_105 = L_104->___x;
+		if ((((float)L_105) < ((float)(0.0f))))
 		{
-			goto IL_03f8;
+			goto IL_03e5;
 		}
 	}
 
-IL_03d9:
+IL_03c6:
 	{
-		float L_107;
-		L_107 = PlayerMovement_get_LastOnWallRightTime_m542726BD82AF181D571F8C3CE4D3305AF6E10434_inline(__this, NULL);
-		if ((!(((float)L_107) > ((float)(0.0f)))))
+		float L_106;
+		L_106 = PlayerMovement_get_LastOnWallRightTime_m542726BD82AF181D571F8C3CE4D3305AF6E10434_inline(__this, NULL);
+		if ((!(((float)L_106) > ((float)(0.0f)))))
 		{
-			goto IL_0401;
+			goto IL_03ee;
 		}
 	}
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_108 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
-		float L_109 = L_108->___x;
-		if ((!(((float)L_109) > ((float)(0.0f)))))
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_107 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
+		float L_108 = L_107->___x;
+		if ((!(((float)L_108) > ((float)(0.0f)))))
 		{
-			goto IL_0401;
+			goto IL_03ee;
 		}
 	}
 
-IL_03f8:
+IL_03e5:
 	{
 		PlayerMovement_set_IsSliding_mC2C293F912CB101C806CAECEDB241B31E9A73DA9_inline(__this, (bool)1, NULL);
-		goto IL_0408;
+		goto IL_03f5;
 	}
 
-IL_0401:
+IL_03ee:
 	{
 		PlayerMovement_set_IsSliding_mC2C293F912CB101C806CAECEDB241B31E9A73DA9_inline(__this, (bool)0, NULL);
 	}
 
-IL_0408:
+IL_03f5:
 	{
-		bool L_110;
-		L_110 = PlayerMovement_get_IsSliding_m10A673F2372913502BD24997F1548A5DD8F819C0_inline(__this, NULL);
-		if (!L_110)
+		bool L_109;
+		L_109 = PlayerMovement_get_IsSliding_m10A673F2372913502BD24997F1548A5DD8F819C0_inline(__this, NULL);
+		if (!L_109)
 		{
-			goto IL_041c;
+			goto IL_0409;
 		}
 	}
 	{
@@ -6625,188 +6609,188 @@ IL_0408:
 		return;
 	}
 
-IL_041c:
+IL_0409:
 	{
-		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_111;
-		L_111 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_112;
-		L_112 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_111, NULL);
-		float L_113 = L_112.___y;
-		if ((!(((float)L_113) < ((float)(0.0f)))))
+		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_110;
+		L_110 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_111;
+		L_111 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_110, NULL);
+		float L_112 = L_111.___y;
+		if ((!(((float)L_112) < ((float)(0.0f)))))
 		{
-			goto IL_04a4;
+			goto IL_0491;
 		}
 	}
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_114 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
-		float L_115 = L_114->___y;
-		if ((!(((float)L_115) < ((float)(0.0f)))))
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_113 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->____moveInput);
+		float L_114 = L_113->___y;
+		if ((!(((float)L_114) < ((float)(0.0f)))))
 		{
-			goto IL_04a4;
+			goto IL_0491;
 		}
 	}
 	{
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_116 = __this->___Data;
-		float L_117 = L_116->___gravityScale;
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_118 = __this->___Data;
-		float L_119 = L_118->___fastFallGravityMult;
-		PlayerMovement_SetGravityScale_mCCA253D947579AA35B4758BF071B92A8E793ED9E(__this, ((float)il2cpp_codegen_multiply(L_117, L_119)), NULL);
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_115 = __this->___Data;
+		float L_116 = L_115->___gravityScale;
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_117 = __this->___Data;
+		float L_118 = L_117->___fastFallGravityMult;
+		PlayerMovement_SetGravityScale_mCCA253D947579AA35B4758BF071B92A8E793ED9E(__this, ((float)il2cpp_codegen_multiply(L_116, L_118)), NULL);
+		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_119;
+		L_119 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_120;
 		L_120 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_121;
-		L_121 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_122;
-		L_122 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_121, NULL);
-		float L_123 = L_122.___x;
-		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_124;
-		L_124 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_125;
-		L_125 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_124, NULL);
-		float L_126 = L_125.___y;
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_127 = __this->___Data;
-		float L_128 = L_127->___maxFastFallSpeed;
-		float L_129;
-		L_129 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_126, ((-L_128)), NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_130;
-		memset((&L_130), 0, sizeof(L_130));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_130), L_123, L_129, NULL);
-		Rigidbody2D_set_velocity_m9335C5883B218F6FCDF7E229AC96232FCBAC4CE6(L_120, L_130, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_121;
+		L_121 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_120, NULL);
+		float L_122 = L_121.___x;
+		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_123;
+		L_123 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_124;
+		L_124 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_123, NULL);
+		float L_125 = L_124.___y;
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_126 = __this->___Data;
+		float L_127 = L_126->___maxFastFallSpeed;
+		float L_128;
+		L_128 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_125, ((-L_127)), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_129;
+		memset((&L_129), 0, sizeof(L_129));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_129), L_122, L_128, NULL);
+		Rigidbody2D_set_velocity_m9335C5883B218F6FCDF7E229AC96232FCBAC4CE6(L_119, L_129, NULL);
 		return;
 	}
 
-IL_04a4:
+IL_0491:
 	{
-		bool L_131 = __this->____isJumpCut;
-		if (!L_131)
+		bool L_130 = __this->____isJumpCut;
+		if (!L_130)
 		{
-			goto IL_050b;
+			goto IL_04f8;
 		}
 	}
 	{
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_132 = __this->___Data;
-		float L_133 = L_132->___gravityScale;
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_134 = __this->___Data;
-		float L_135 = L_134->___jumpCutGravityMult;
-		PlayerMovement_SetGravityScale_mCCA253D947579AA35B4758BF071B92A8E793ED9E(__this, ((float)il2cpp_codegen_multiply(L_133, L_135)), NULL);
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_131 = __this->___Data;
+		float L_132 = L_131->___gravityScale;
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_133 = __this->___Data;
+		float L_134 = L_133->___jumpCutGravityMult;
+		PlayerMovement_SetGravityScale_mCCA253D947579AA35B4758BF071B92A8E793ED9E(__this, ((float)il2cpp_codegen_multiply(L_132, L_134)), NULL);
+		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_135;
+		L_135 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_136;
 		L_136 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_137;
-		L_137 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_138;
-		L_138 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_137, NULL);
-		float L_139 = L_138.___x;
-		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_140;
-		L_140 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_141;
-		L_141 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_140, NULL);
-		float L_142 = L_141.___y;
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_143 = __this->___Data;
-		float L_144 = L_143->___maxFallSpeed;
-		float L_145;
-		L_145 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_142, ((-L_144)), NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_146;
-		memset((&L_146), 0, sizeof(L_146));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_146), L_139, L_145, NULL);
-		Rigidbody2D_set_velocity_m9335C5883B218F6FCDF7E229AC96232FCBAC4CE6(L_136, L_146, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_137;
+		L_137 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_136, NULL);
+		float L_138 = L_137.___x;
+		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_139;
+		L_139 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_140;
+		L_140 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_139, NULL);
+		float L_141 = L_140.___y;
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_142 = __this->___Data;
+		float L_143 = L_142->___maxFallSpeed;
+		float L_144;
+		L_144 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_141, ((-L_143)), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_145;
+		memset((&L_145), 0, sizeof(L_145));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_145), L_138, L_144, NULL);
+		Rigidbody2D_set_velocity_m9335C5883B218F6FCDF7E229AC96232FCBAC4CE6(L_135, L_145, NULL);
 		return;
 	}
 
-IL_050b:
+IL_04f8:
+	{
+		bool L_146;
+		L_146 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
+		if (L_146)
+		{
+			goto IL_0510;
+		}
+	}
 	{
 		bool L_147;
-		L_147 = PlayerMovement_get_IsJumping_mCD863564F18F8DE73C84FA328342E5F34E9AA106_inline(__this, NULL);
+		L_147 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
 		if (L_147)
 		{
-			goto IL_0523;
+			goto IL_0510;
 		}
 	}
 	{
-		bool L_148;
-		L_148 = PlayerMovement_get_IsWallJumping_m02490F964BC4841B4FEBC9ABC13ED3194BB25AD8_inline(__this, NULL);
-		if (L_148)
+		bool L_148 = __this->____isJumpFalling;
+		if (!L_148)
 		{
-			goto IL_0523;
-		}
-	}
-	{
-		bool L_149 = __this->____isJumpFalling;
-		if (!L_149)
-		{
-			goto IL_0563;
+			goto IL_0550;
 		}
 	}
 
-IL_0523:
+IL_0510:
 	{
-		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_150;
-		L_150 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_151;
-		L_151 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_150, NULL);
-		float L_152 = L_151.___y;
-		float L_153;
-		L_153 = fabsf(L_152);
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_154 = __this->___Data;
-		float L_155 = L_154->___jumpHangTimeThreshold;
-		if ((!(((float)L_153) < ((float)L_155))))
+		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_149;
+		L_149 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_150;
+		L_150 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_149, NULL);
+		float L_151 = L_150.___y;
+		float L_152;
+		L_152 = fabsf(L_151);
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_153 = __this->___Data;
+		float L_154 = L_153->___jumpHangTimeThreshold;
+		if ((!(((float)L_152) < ((float)L_154))))
 		{
-			goto IL_0563;
+			goto IL_0550;
 		}
 	}
 	{
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_156 = __this->___Data;
-		float L_157 = L_156->___gravityScale;
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_158 = __this->___Data;
-		float L_159 = L_158->___jumpHangGravityMult;
-		PlayerMovement_SetGravityScale_mCCA253D947579AA35B4758BF071B92A8E793ED9E(__this, ((float)il2cpp_codegen_multiply(L_157, L_159)), NULL);
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_155 = __this->___Data;
+		float L_156 = L_155->___gravityScale;
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_157 = __this->___Data;
+		float L_158 = L_157->___jumpHangGravityMult;
+		PlayerMovement_SetGravityScale_mCCA253D947579AA35B4758BF071B92A8E793ED9E(__this, ((float)il2cpp_codegen_multiply(L_156, L_158)), NULL);
 		return;
 	}
 
-IL_0563:
+IL_0550:
 	{
-		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_160;
-		L_160 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_161;
-		L_161 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_160, NULL);
-		float L_162 = L_161.___y;
-		if ((!(((float)L_162) < ((float)(0.0f)))))
+		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_159;
+		L_159 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_160;
+		L_160 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_159, NULL);
+		float L_161 = L_160.___y;
+		if ((!(((float)L_161) < ((float)(0.0f)))))
 		{
-			goto IL_05d9;
+			goto IL_05c6;
 		}
 	}
 	{
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_163 = __this->___Data;
-		float L_164 = L_163->___gravityScale;
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_165 = __this->___Data;
-		float L_166 = L_165->___fallGravityMult;
-		PlayerMovement_SetGravityScale_mCCA253D947579AA35B4758BF071B92A8E793ED9E(__this, ((float)il2cpp_codegen_multiply(L_164, L_166)), NULL);
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_162 = __this->___Data;
+		float L_163 = L_162->___gravityScale;
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_164 = __this->___Data;
+		float L_165 = L_164->___fallGravityMult;
+		PlayerMovement_SetGravityScale_mCCA253D947579AA35B4758BF071B92A8E793ED9E(__this, ((float)il2cpp_codegen_multiply(L_163, L_165)), NULL);
+		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_166;
+		L_166 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_167;
 		L_167 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_168;
-		L_168 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_169;
-		L_169 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_168, NULL);
-		float L_170 = L_169.___x;
-		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_171;
-		L_171 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_172;
-		L_172 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_171, NULL);
-		float L_173 = L_172.___y;
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_174 = __this->___Data;
-		float L_175 = L_174->___maxFallSpeed;
-		float L_176;
-		L_176 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_173, ((-L_175)), NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_177;
-		memset((&L_177), 0, sizeof(L_177));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_177), L_170, L_176, NULL);
-		Rigidbody2D_set_velocity_m9335C5883B218F6FCDF7E229AC96232FCBAC4CE6(L_167, L_177, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_168;
+		L_168 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_167, NULL);
+		float L_169 = L_168.___x;
+		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_170;
+		L_170 = PlayerMovement_get_RB_m4BA78C33E162C6FBFB2194E0427AA12056A61CC0_inline(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_171;
+		L_171 = Rigidbody2D_get_velocity_mBD8AC6F93F0E24CC41D2361BCEF74F81303720EF(L_170, NULL);
+		float L_172 = L_171.___y;
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_173 = __this->___Data;
+		float L_174 = L_173->___maxFallSpeed;
+		float L_175;
+		L_175 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_172, ((-L_174)), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_176;
+		memset((&L_176), 0, sizeof(L_176));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_176), L_169, L_175, NULL);
+		Rigidbody2D_set_velocity_m9335C5883B218F6FCDF7E229AC96232FCBAC4CE6(L_166, L_176, NULL);
 		return;
 	}
 
-IL_05d9:
+IL_05c6:
 	{
-		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_178 = __this->___Data;
-		float L_179 = L_178->___gravityScale;
-		PlayerMovement_SetGravityScale_mCCA253D947579AA35B4758BF071B92A8E793ED9E(__this, L_179, NULL);
+		PlayerData_t04178AFFCFAF35DA6472B839034F672FFE5EB64A* L_177 = __this->___Data;
+		float L_178 = L_177->___gravityScale;
+		PlayerMovement_SetGravityScale_mCCA253D947579AA35B4758BF071B92A8E793ED9E(__this, L_178, NULL);
 		return;
 	}
 }

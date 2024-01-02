@@ -357,7 +357,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -383,7 +383,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 38311,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.TestRunner.rsp2"
@@ -2060,7 +2060,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 44123,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -2086,7 +2086,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 76082,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.rsp2"
@@ -2569,7 +2569,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 81883,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Burst.UnityAdditionalFile.txt"
@@ -2595,7 +2595,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 110435,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Burst.rsp2"
@@ -3082,7 +3082,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 116391,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Mathematics.UnityAdditionalFile.txt"
@@ -3108,7 +3108,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 148548,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Mathematics.rsp2"
@@ -3597,7 +3597,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 154451,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipelines.Core.Runtime.UnityAdditionalFile.txt"
@@ -3623,7 +3623,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 198072,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipelines.Core.Runtime.rsp2"
@@ -4201,7 +4201,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 203998,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipelines.Core.ShaderLibrary.UnityAdditionalFile.txt"
@@ -4227,7 +4227,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 228688,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipelines.Core.ShaderLibrary.rsp2"
@@ -4628,7 +4628,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 234632,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.UnityAdditionalFile.txt"
@@ -4654,7 +4654,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 259382,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.rsp2"
@@ -5055,7 +5055,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 265325,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipelines.Universal.Shaders.UnityAdditionalFile.txt"
@@ -5081,7 +5081,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 289998,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipelines.Universal.Shaders.rsp2"
@@ -5482,7 +5482,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 295906,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -5508,7 +5508,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 325618,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.rsp2"
@@ -5967,7 +5967,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 331531,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipeline.Universal.ShaderLibrary.UnityAdditionalFile.txt"
@@ -5993,7 +5993,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 356525,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipeline.Universal.ShaderLibrary.rsp2"
@@ -6418,7 +6418,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 362556,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipelines.Universal.Runtime.UnityAdditionalFile.txt"
@@ -6444,7 +6444,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 405675,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.RenderPipelines.Universal.Runtime.rsp2"
@@ -7086,7 +7086,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 411931,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Cinemachine.UnityAdditionalFile.txt"
@@ -7112,7 +7112,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 444219,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Cinemachine.rsp2"
@@ -7618,7 +7618,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 450294,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -8221,7 +8221,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 485352,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -8247,7 +8247,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 524545,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/UnityEngine.TestRunner.rsp2"
@@ -10043,7 +10043,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 532006,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -10069,7 +10069,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 564950,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/UnityEngine.UI.rsp2"
@@ -10609,7 +10609,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 572411,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -10635,7 +10635,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 617991,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/UnityEditor.TestRunner.rsp2"
@@ -11366,7 +11366,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 625967,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -11392,7 +11392,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 656008,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/UnityEditor.UI.rsp2"
@@ -11949,7 +11949,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 664133,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/Unity.Burst.UnityAdditionalFile.txt"
@@ -11975,7 +11975,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 693740,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/Unity.Burst.rsp2"
@@ -12508,7 +12508,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 701423,
       "PayloadLength": 65,
-      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Desktop\\SkillBo",
+      "PayloadDebugContentSnippet": "C:\\Users\\Semen\\Documents\\GitHu",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/Unity.Burst.CodeGen.UnityAdditionalFile.txt"
@@ -12534,7 +12534,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 729291,
       "PayloadLength": 78,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Deskt",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Semen\\Docum",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WebGL_CodeGen/Unity.Burst.CodeGen.rsp2"
@@ -13124,7 +13124,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 737640,
       "PayloadLength": 35766,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/4747638433968585886.rsp"
@@ -13513,7 +13513,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 773495,
       "PayloadLength": 22345,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/2469173223754590692.rsp"
@@ -14457,7 +14457,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 795929,
       "PayloadLength": 22277,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/3271452858328866250.rsp"
@@ -15404,7 +15404,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 818295,
       "PayloadLength": 22308,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/2918927249304849764.rsp"
@@ -16350,7 +16350,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 840693,
       "PayloadLength": 22363,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/13376468468605335706.rsp"
@@ -17296,7 +17296,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 863146,
       "PayloadLength": 22331,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/10750065314021974860.rsp"
@@ -18242,7 +18242,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 885566,
       "PayloadLength": 22343,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/6793693901135823372.rsp"
@@ -19188,7 +19188,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 907998,
       "PayloadLength": 22330,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/2315929835890287570.rsp"
@@ -20134,7 +20134,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 930417,
       "PayloadLength": 22308,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/2549252784825872615.rsp"
@@ -21080,7 +21080,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 952815,
       "PayloadLength": 22411,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/17860015010817844233.rsp"
@@ -22028,7 +22028,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 975315,
       "PayloadLength": 22722,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/6523281821513643048.rsp"
@@ -22983,7 +22983,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 998127,
       "PayloadLength": 22599,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/10507677030994084199.rsp"
@@ -23940,7 +23940,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1020814,
       "PayloadLength": 23030,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-d8fc21173498933391",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-2c395e9f7261a7c1ff",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/389538948102208595.rsp"
@@ -25294,7 +25294,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)",
       "DisplayName": "BuildPlayerDataGenerator RuntimeInitializeOnLoads",
-      "Action": "\"D:/unity/2022.3.13f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/unity/2022.3.13f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.burst@1.8.9\\Unity.Burst.Unsafe.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\\Newtonsoft.Json.dll\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\" -s=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.burst@1.8.9\" -s=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\Semen\\Desktop\\SkillBox\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"D:/unity/2022.3.13f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/unity/2022.3.13f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.burst@1.8.9\\Unity.Burst.Unsafe.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\\Newtonsoft.Json.dll\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\unity\\2022.3.13f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\" -s=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.burst@1.8.9\" -s=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\Semen\\Documents\\GitHub\\Looking-for-light\\LookingForLight\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "D:/unity/2022.3.13f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "D:/unity/2022.3.13f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -25563,6 +25563,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/2000b0aP.dag.json",
-  "PayloadsFile": "C:/Users/Semen/Desktop/SkillBox/Looking-for-light/LookingForLight/Library/Bee/2000b0aP.dag.payloads",
+  "PayloadsFile": "C:/Users/Semen/Documents/GitHub/Looking-for-light/LookingForLight/Library/Bee/2000b0aP.dag.payloads",
   "RelativePathToRoot": "../.."
 }
