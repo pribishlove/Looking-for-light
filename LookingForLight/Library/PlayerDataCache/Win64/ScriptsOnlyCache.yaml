@@ -100,8 +100,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
-    Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -204,9 +202,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: CloseGame
-    methodName: OnButtonClick
   - assembly: Assembly-CSharp
     fullTypeName: StartGame
     methodName: OnButtonClick
@@ -455,9 +450,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 27178}
     - Class: 114
-      Script: {instanceID: 25258}
+      Script: {instanceID: 27194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -590,9 +585,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 27178}
     - Class: 114
-      Script: {instanceID: 25258}
+      Script: {instanceID: 27194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -725,9 +720,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 27178}
     - Class: 114
-      Script: {instanceID: 25258}
+      Script: {instanceID: 27194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -860,9 +855,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 27178}
     - Class: 114
-      Script: {instanceID: 25258}
+      Script: {instanceID: 27194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -989,9 +984,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 27178}
     - Class: 114
-      Script: {instanceID: 25258}
+      Script: {instanceID: 27194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1118,9 +1113,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 27178}
     - Class: 114
-      Script: {instanceID: 25258}
+      Script: {instanceID: 27194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1253,9 +1248,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 27178}
     - Class: 114
-      Script: {instanceID: 25258}
+      Script: {instanceID: 27194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1786,9 +1781,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 27178}
     - Class: 114
-      Script: {instanceID: 25258}
+      Script: {instanceID: 27194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1923,9 +1918,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 27178}
     - Class: 114
-      Script: {instanceID: 25258}
+      Script: {instanceID: 27194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3480,4 +3475,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/8 level.unity
   - Assets/Scenes/9 level.unity
   - Assets/Scenes/10 level.unity
-  playerPath: C:/Users/Semen/Desktop/exe/Looking for light.exe
+  playerPath: C:/Users/Semen/Desktop/builds/Looking for light.exe

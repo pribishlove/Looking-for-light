@@ -66,6 +66,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Main-menu");
+        }
         #region ТАЙМЕРЫ
 
         LastOnGroundTime -= Time.deltaTime;
