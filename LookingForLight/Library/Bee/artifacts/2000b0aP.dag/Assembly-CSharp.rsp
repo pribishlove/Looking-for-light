@@ -320,6 +320,8 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/IBonusReceiver.cs"
 "Assets/Scripts/LevelTimer.cs"
+"Assets/Scripts/main-menu/GameManager2.cs"
+"Assets/Scripts/main-menu/MainMenu.cs"
 "Assets/Scripts/ObjectController.cs"
 "Assets/Scripts/Patrol.cs"
 "Assets/Scripts/PlayerData.cs"
