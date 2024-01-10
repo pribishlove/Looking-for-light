@@ -1,42 +1,51 @@
 using UnityEngine;
-using TMPro; // Добавьте пространство имен для TextMeshPro
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance;
+    private static GameManager _instance;
+
+    public static GameManager Instance
+    {
+        get { return _instance; }
+        set { _instance = value; }
+    }
 
     public float increasedRadius = 10f;
     public float duration = 3f;
-    public float remainingTime; // Добавлено: оставшееся время бонуса
+    public float remainingTime;
 
     public bool BonusCollected { get; set; }
 
-    public TextMeshProUGUI timerText; // Используйте TextMeshProUGUI вместо Text
+    public TextMeshProUGUI timerText;
 
     private void Awake()
     {
-        if (Instance == null)
+        // Если экземпляр еще не установлен, установите его текущим объектом
+        if (_instance == null)
         {
-            Instance = this;
+            _instance = this;
         }
         else
         {
-            Destroy(gameObject);
+            // Если экземпляр уже установлен и не совпадает с текущим объектом, уничтожьте текущий объект
+            if (_instance != this)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
     private void Start()
     {
-        // Инициализируем таймер
         remainingTime = duration;
     }
 
     private void Update()
     {
-        // Проверяем, был ли подобран бонус
         if (BonusCollected)
         {
-            UpdateTimer(); // Добавлено: обновление таймера
+            UpdateTimer();
         }
     }
 

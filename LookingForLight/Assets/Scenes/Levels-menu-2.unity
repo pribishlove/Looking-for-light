@@ -956,8 +956,7 @@ GameObject:
   - component: {fileID: 1622769757}
   - component: {fileID: 1622769760}
   - component: {fileID: 1622769759}
-  - component: {fileID: 1622769762}
-  - component: {fileID: 1622769761}
+  - component: {fileID: 1622769763}
   m_Layer: 0
   m_Name: Scenes
   m_TagString: Untagged
@@ -1016,7 +1015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1c92f50f8d6a0840a5aba4b1d99d7b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1622769761
+--- !u!114 &1622769763
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1025,21 +1024,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1622769756}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02068625966dba64abe10464a9bf68c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 942ad760ac7eba244b8220ee5d5dc378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1622769762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622769756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6785368af0251ce4c91d821b41e821c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  levelNames:
+  - 9 level
+  - 10 level
 --- !u!1 &1659688708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,10 +1393,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1622769762}
-        m_TargetAssemblyTypeName: Open9lvl, Assembly-CSharp
-        m_MethodName: OnButtonClick
-        m_Mode: 1
+      - m_Target: {fileID: 1622769763}
+        m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1611,14 +1601,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1622769761}
-        m_TargetAssemblyTypeName: Open10lvl, Assembly-CSharp
-        m_MethodName: OnButtonClick
-        m_Mode: 1
+      - m_Target: {fileID: 1622769763}
+        m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

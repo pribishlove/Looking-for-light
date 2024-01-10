@@ -6584,10 +6584,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b48e71f382a7f541931072a2f523649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points:
+  patrolPoints:
   - {fileID: 267971991}
   - {fileID: 665504442}
-  i: 0
+  currentPatrolIndex: 0
   speed: 3
 --- !u!114 &406407598
 MonoBehaviour:
@@ -7098,10 +7098,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b48e71f382a7f541931072a2f523649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points:
-  - {fileID: 1562425321}
+  patrolPoints:
   - {fileID: 351521444}
-  i: 0
+  - {fileID: 1562425321}
+  currentPatrolIndex: 0
   speed: 3
 --- !u!114 &445662577
 MonoBehaviour:
@@ -10293,10 +10293,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b48e71f382a7f541931072a2f523649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points:
-  - {fileID: 755989223}
+  patrolPoints:
   - {fileID: 434626952}
-  i: 0
+  - {fileID: 755989223}
+  currentPatrolIndex: 0
   speed: 3
 --- !u!114 &701263674
 MonoBehaviour:
@@ -17527,10 +17527,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b48e71f382a7f541931072a2f523649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points:
+  patrolPoints:
   - {fileID: 1447838227}
   - {fileID: 1549811184}
-  i: 0
+  currentPatrolIndex: 0
   speed: 3
 --- !u!114 &1324338847
 MonoBehaviour:
